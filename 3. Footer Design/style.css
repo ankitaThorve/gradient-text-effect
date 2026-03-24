@@ -28,8 +28,13 @@ footer .content {
 	padding: 30px 40px 40px 40px;
 }
 
-footer .content .top{
-display: flex;
-align-items: center;
-justify-content: space-between;
+footer .content .top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content .top .logo-details {
+	color: #fff;
+	font-size: 30px;
 }
