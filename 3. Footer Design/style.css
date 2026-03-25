@@ -135,7 +135,7 @@ footer .content .link-boxes .box {
 	list-style: none;
 }
 
-.content .link-boxes .box li a{
+.content .link-boxes .box li a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 14px;
@@ -144,7 +144,45 @@ footer .content .link-boxes .box {
 	transition: all 0.4s ease;
 }
 
-.content .link-boxes .box li a:hover{
+.content .link-boxes .box li a:hover {
 	opacity: 1;
 	text-decoration: underline;
+}
+
+.content .link-boxes .input-box {
+	margin-right: 55px;
+}
+
+.link-boxes .input-box input {
+	height: 40px;
+	width: calc(100% + 55px);
+	outline: none;
+	border: 2px solid #afafb6;
+	background: #140b5c;
+	border-radius: 4px;
+	padding: 0 15px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.link-boxes .input-box input::placeholder {
+	color: #afafb6;
+	font-size: 16px;
+}
+
+.link-boxes .input-box input[type="button"] {
+	background: #fff;
+	color: #140b5c;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 4px 0;
+	opacity: 0.8;
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+
+.input-box input[type="button"]:hover{
+	opacity: 1;
 }
