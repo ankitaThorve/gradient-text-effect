@@ -141,8 +141,10 @@ footer .content .link-boxes .box {
 	font-size: 14px;
 	font-weight: 400;
 	opacity: 0.8;
+	transition: all 0.4s ease;
 }
 
 .content .link-boxes .box li a:hover{
-	
+	opacity: 1;
+	text-decoration: underline;
 }
