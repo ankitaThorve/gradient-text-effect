@@ -254,20 +254,20 @@ footer .bottom-details .bottom-text {
 }
 
 @media (max-width: 520px) {
-	footer::before{
+	footer::before {
 		top: 145px;
 	}
-	footer .content .top{
+	footer .content .top {
 		flex-direction: column;
 	}
-	.content .top .media-icons{
+	.content .top .media-icons {
 		margin-top: 16px;
 	}
 
 	footer .content .link-boxes .box {
 		width: calc(100% / 2 - 10px);
 	}
-	footer .content .link-boxes .input-box{
+	footer .content .link-boxes .input-box {
 		width: 100%;
 	}
 }
