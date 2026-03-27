@@ -55,7 +55,7 @@ This allows the gradient to be applied inside the text instead of the background
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/gradient-text-effect.git
+   git clone https://ankitathorve.github.io/gradient-text-effect/
 
    ```
 
